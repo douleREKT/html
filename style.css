@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	position:relative;
+	background-color: #859BC9;
+	align-content: center;
+}
+
+.content
+{
+	height: 300px;
+	width: 260px;
+	background-color: #3C65C3;
+	position: relative;
+	border-radius : 50px;
+	margin-right: 469px;
+	margin-top: 50px;
+	margin-left: 600px;
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-bottom: 50px;
+	margin-bottom: 600px;
+	padding-right: 0px;
+	
+}
+
+#sub
+{
+	
+	width:50px;
+	background-color:#8685EF;
+	margin-top:20px;
+	margin-left:60px;
+}
+#psw
+{
+	
+	margin-top:20px;
+	background-color:white;
+}
+#mail
+{
+	
+	margin-top:20px;
+	background-color:white;
+}
+#img
+{
+	border-radius:100px;
+}
+body
+{
+	position: fixed;
+}
