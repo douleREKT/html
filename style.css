@@ -10,7 +10,7 @@
 
 .content
 {
-	height: 300px;
+	height: 310px;
 	width: 260px;
 	background-color: #3C65C3;
 	position: relative;
@@ -28,21 +28,22 @@
 
 #sub
 {
-	
-	width:50px;
-	background-color:#8685EF;
-	margin-top:20px;
-	margin-left:60px;
+	border:solid #1A5AEF;
+	border-radius:5px;
+	width:70px;
+	background-color:#1A5AEF;
+	margin-top:-20px;
+	margin-left:50px;
 }
 #psw
 {
-	
+	border-radius:5px;
 	margin-top:20px;
 	background-color:white;
 }
 #mail
 {
-	
+	border-radius:5px;
 	margin-top:20px;
 	background-color:white;
 }
@@ -54,3 +55,7 @@ body
 {
 	position: fixed;
 }
+h5
+{
+	background-color:#3C65C3;
+	}
