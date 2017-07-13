@@ -11,51 +11,65 @@
 .content
 {
 	height: 310px;
-	width: 260px;
+	width: 310px;
 	background-color: #3C65C3;
 	position: relative;
-	border-radius : 50px;
+	border-radius : 5px;
 	margin-right: 469px;
-	margin-top: 50px;
-	margin-left: 600px;
+	margin-top: 200px;
+	margin-left: 550px;
 	padding-top: 50px;
-	padding-left: 80px;
+	padding-left: 120px;
 	padding-bottom: 50px;
 	margin-bottom: 600px;
 	padding-right: 0px;
-	
 }
 
 #sub
 {
-	border:solid #1A5AEF;
-	border-radius:5px;
-	width:70px;
-	background-color:#1A5AEF;
-	margin-top:-20px;
-	margin-left:50px;
+	border:green;
+	height: 30px;
+	width:100px;
+	background-color:green;
+	margin-top:10px;
+	margin-left:40px;
 }
 #psw
 {
+	margin-left:-30px;
+	width:250px;
+	height:30px;
 	border-radius:5px;
 	margin-top:20px;
 	background-color:white;
 }
 #mail
 {
+	margin-left:-30px;
+	width:250px;
+	height:30px;
 	border-radius:5px;
 	margin-top:20px;
 	background-color:white;
 }
 #img
 {
-	border-radius:100px;
+	margin-top:-140px;
+	margin-bottom: 50px;
+	border-radius:120px;
 }
 body
 {
 	position: fixed;
 }
-h5
+a
 {
+	
+	margin-left:-25px;
 	background-color:#3C65C3;
 	}
+#sub:hover
+{
+	background-color:white;
+	opacity:0.8;
+}
