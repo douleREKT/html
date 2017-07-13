@@ -1,76 +1,68 @@
 @charset "utf-8";
 /* CSS Document */
+/*** fonts**/
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
 
-*
-{
-	position:relative;
-	background-color: #859BC9;
-	align-content: center;
+body{
+	background-image: url("https://media.timeout.com/images/103817003/image.jpg");
+	background-size: 100% ;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	font-family: 'Zilla Slab', serif;
+
 }
-
+form{
+	display: flex;
+	justify-content: center;
+}
 .content
 {
-	height: 310px;
-	width: 310px;
-	background-color: #3C65C3;
-	position: relative;
-	border-radius : 5px;
-	margin-right: 469px;
-	margin-top: 200px;
-	margin-left: 550px;
-	padding-top: 50px;
-	padding-left: 120px;
-	padding-bottom: 50px;
-	margin-bottom: 600px;
-	padding-right: 0px;
+	position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 82px;
+		top: 20%;
+}
+.login-input{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 12px;
+	font-family: 'Zilla Slab', serif;
+
 }
 
 #sub
 {
-	border:green;
 	height: 30px;
 	width:100px;
-	background-color:green;
+	padding: 10px;
+	padding-bottom: 22px;
+	background-color:#1abc9c;
 	margin-top:10px;
 	margin-left:40px;
+	border: 0;
+	color: #fff;
+	border-bottom: 6px #16a085 solid;
+	font-family: 'Zilla Slab', serif;
+
 }
-#psw
-{
-	margin-left:-30px;
-	width:250px;
-	height:30px;
-	border-radius:5px;
-	margin-top:20px;
-	background-color:white;
-}
-#mail
-{
-	margin-left:-30px;
-	width:250px;
-	height:30px;
-	border-radius:5px;
-	margin-top:20px;
-	background-color:white;
-}
+
 #img
 {
-	margin-top:-140px;
-	margin-bottom: 50px;
-	border-radius:120px;
+	position: absolute;
+    top: -103px;
+    left: 205px;
 }
-body
-{
-	position: fixed;
-}
+
 a
 {
 	text-decoration:none;
 	color:white;
 	margin-left:30px;
-	background-color:#3C65C3;
 	}
-#sub:hover
-{
-	background-color:white;
-	opacity:0.8;
+#sub:hover{
+	border-bottom: 2px #16a085 solid;
+	margin-top: 12px;
+	margin-bottom: 6px;
 }
